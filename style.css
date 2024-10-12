@@ -1,0 +1,305 @@
+
+nav{
+    
+       top: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  text-align: center;
+  position: fixed;
+  width:1590px;
+  padding-block: 15px;
+  z-index: 1;
+
+}
+nav a {
+color: white;
+margin-right: 20px;
+padding-right: 180px;
+transition: color 0.3s; 
+text-decoration: none;
+}
+nav img{
+padding-right: 200px;
+max-width: 45px;
+}
+
+nav a:hover {
+color: red; 
+}
+
+nav a:active {
+color: blue; 
+}
+.dropbtn{
+color:#f8f7f5;
+margin-right: 110px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.2em;
+background-color: rgb(0, 0, 0);
+
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+text-align: center;
+background-color: #f9f9f918;
+margin-left: 625px;
+max-width: 300px;
+margin-top: 13px;
+height: 150px;
+z-index: 1;
+}
+.dropdown-content a{
+padding: 15px 30px;
+
+}
+
+
+
+
+
+
+
+body {
+  padding-top: 70px;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  background-color: #333;
+  font-style: italic;
+  color: #fff;
+}
+
+.product {
+  background-color: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.product:nth-child(3n) {
+  margin-right: 0;
+}
+
+.product img {
+  max-width: 135px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.product .availability {
+  color: green;
+  font-weight: bold;
+}
+
+.product .shipping {
+  color: #999;
+  font-style: italic;
+}
+
+.add-to-cart {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #45A049;
+}
+/* Footer Styles */
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  border: 23px double;
+  border-bottom: none;
+  border-radius: 5pxs;
+  border-color: #fff7f7;
+  background-color: rgb(0, 0, 0);
+}
+.social-icons a{
+  margin-right: 30px;
+}
+footer img{
+  max-width: 150%;
+}
+#maps{
+  max-width: 4%;
+}
+#fa{
+
+  color: #ebebea;
+  font-size: 24px;
+  text-decoration:none ;
+}
+
+/* Header Styles */
+h1 {
+  background-color: rgba(255, 255, 255, 0.6); /* Adjust the alpha value (0.8) to make it more or less transparent */
+  
+  padding: 20px 0;
+  text-align: center;
+  color: #d5cfcf;
+}
+
+.h1-title {
+  color: #fffbfb;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* Apply styles to the h1 element */
+h1 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Apply styles to the .product container */
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Apply styles to the .product img */
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Apply styles to the .product h2 */
+.product h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Apply styles to the .product p */
+.product p {
+  font-size: 14px;
+}
+
+/* Apply styles to the .product .availability */
+.product .availability {
+  color: green;
+  font-weight: bold;
+}
+
+/* Apply styles to the .product .shipping */
+.product .shipping {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+/* Apply styles to the .quantity-input label */
+.quantity-input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Apply styles to the .quantity-input input */
+.quantity-input input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Apply styles to the .btn and .add-to-cart buttons */
+.btn,
+.add-to-cart {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Apply styles when hovering over .btn and .add-to-cart buttons */
+.btn:hover,
+.add-to-cart:hover {
+  background-color: #45a049;
+}
+.header {
+  margin-top: 40px;
+  background-image: url('try2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header h1 {
+  margin-top: 10px;
+}
+.product img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
